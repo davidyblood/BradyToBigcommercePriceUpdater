@@ -3,9 +3,8 @@
 import logging
 import bigcommerce
 
-if __name__=='__main__':
-    logging.basicConfig(filename='program.log', level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-    logging.info('')
+
+def bigcommerceTesting():
     products, myerrors = bigcommerce.getProductSku('5060-29-PDM')
     if len(myerrors) > 0:
         logging.info(myerrors)
@@ -19,3 +18,9 @@ if __name__=='__main__':
             logging.info(i)
             break
         print('-----------------------------------')
+
+if __name__=='__main__':
+    logging.basicConfig(filename='program.log', level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+    logging.info('')
+
+    #bigcommerceTesting()

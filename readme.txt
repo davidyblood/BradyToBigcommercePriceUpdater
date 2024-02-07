@@ -6,6 +6,6 @@ Goals:
 3) update Bigcommerce price based on comparison
 
 Todo:
-1) get list of store items from Bigcommerce, look at how we did it on service website.
+1) log into brady Warehouse
 
 
