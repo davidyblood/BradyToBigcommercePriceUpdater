@@ -6,8 +6,6 @@ Goals:
 3) update Bigcommerce price based on comparison
 
 Todo:
-1) create Log file
-2) get list of store items from Bigcommerce
+1) get list of store items from Bigcommerce, look at how we did it on service website.
 
-test file change
 
